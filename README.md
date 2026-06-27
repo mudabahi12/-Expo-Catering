@@ -1,10 +1,10 @@
-# Expo Catering - Unified Operations Console & Kiosk
+# Expo Catering
 
 Expo Catering is a high-throughput, centralized catering ERP and ordering matrix built in Laravel & PHP. It streamlines catering logistics, daily kitchen production sheet aggregations, CRM client records (pharma reps/corporate accounts), and customer ordering through an AI-assisted checkout terminal.
 
 ---
 
-## 🚀 Key Modules & Features
+## Key Modules & Features
 
 ### 1. Landing Page (`/`)
 - Sleek cream-orange radial glow layout with a custom background grid.
