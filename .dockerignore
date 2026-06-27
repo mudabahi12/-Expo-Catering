@@ -1,0 +1,14 @@
+.git
+.github
+node_modules
+.env
+.env.example
+.editorconfig
+.gitignore
+.gitattributes
+tests
+phpunit.xml
+README.md
+*.md
+.vscode
+.idea

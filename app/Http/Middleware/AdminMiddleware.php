@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
+class AdminMiddleware
+{
+    public function handle(Request $request, Closure $next)
+    {
+        if (Auth::check()) {
+            if (Auth::user()->isAdmin()) {
+                return $next($request);
+            }
+            return redirect()->route('kiosk')->with('error', 'Unauthorized access. Admins only.');
+        }
+
+        return redirect()->route('login')->with('error', 'Please log in to access this page.');
+    }
+}
