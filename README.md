@@ -48,11 +48,3 @@ Expo Catering is a high-throughput, centralized catering ERP and ordering matrix
 - **Asynchronous Logic**: Vanilla JavaScript (Fetch API polling, client-side NLP parser)
 
 ---
-
-
-
-## 👥 Seeded Test Accounts
-
-- **Super Admin (Operations Console)**: `super@caterflow.com` (password: `password`)
-- **Admin (Restaurant Partner)**: `admin@caterflow.com` (password: `password`)
-- **Customer**: `jane@caterflow.com` (password: `password`)
